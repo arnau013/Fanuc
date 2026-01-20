@@ -1,1 +1,1342 @@
+[
+
+  {
+
+    "codigo": "SRVO-001",
+
+    "descripcion": "Paro de emergencia del panel del operador",
+
+    "causa": "El botón de paro de emergencia del panel del operador está presionado",
+
+    "solucion": "Liberar el botón de paro de emergencia y pulsar RESET"
+
+  },
+
+  {
+
+    "codigo": "SRVO-002",
+
+    "descripcion": "Paro de emergencia de la consola portátil",
+
+    "causa": "El botón de paro de emergencia del teach pendant está presionado",
+
+    "solucion": "Girar el botón para liberarlo y pulsar RESET"
+
+  },
+
+  {
+
+    "codigo": "SRVO-003",
+
+    "descripcion": "Hombre muerto liberado",
+
+    "causa": "El interruptor deadman del teach pendant no está presionado correctamente",
+
+    "solucion": "Sujetar correctamente el deadman y pulsar RESET"
+
+  },
+
+  {
+
+    "codigo": "SRVO-004",
+
+    "descripcion": "Valla abierta",
+
+    "causa": "La puerta de seguridad está abierta o faltan puentes en TBOP4",
+
+    "solucion": "Cerrar la valla de seguridad o colocar los puentes EAS1-EAS11 y EAS2-EAS21"
+
+  },
+
+  {
+
+    "codigo": "SRVO-005",
+
+    "descripcion": "Robot sobre recorrido",
+
+    "causa": "El robot superó un límite físico de recorrido",
+
+    "solucion": "Liberar el sobre recorrido desde el menú OT Release y mover el eje a zona segura"
+
+  },
+
+  {
+
+    "codigo": "SRVO-006",
+
+    "descripcion": "Fractura en la mano",
+
+    "causa": "Fallo en la señal de seguridad de la muñeca o cableado defectuoso",
+
+    "solucion": "Revisar junta de seguridad, cable RP1 y amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-007",
+
+    "descripcion": "Paro de emergencia externo",
+
+    "causa": "El paro de emergencia externo está activo o falta puente",
+
+    "solucion": "Liberar paro externo o colocar puentes en TBOP4"
+
+  },
+
+  {
+
+    "codigo": "SRVO-008",
+
+    "descripcion": "Fusible de freno quemado",
+
+    "causa": "El fusible del circuito de freno está fundido",
+
+    "solucion": "Reemplazar el fusible del circuito EMG"
+
+  },
+
+  {
+
+    "codigo": "SRVO-009",
+
+    "descripcion": "Alarma de presión neumática",
+
+    "causa": "Presión de aire anormal detectada en el efector final",
+
+    "solucion": "Revisar suministro de aire y cable RP1"
+
+  },
+
+  {
+
+    "codigo": "SRVO-010",
+
+    "descripcion": "Correa rota",
+
+    "causa": "La señal de correa rota está activa",
+
+    "solucion": "Reparar o sustituir la correa y pulsar RESET"
+
+  },
+
+  {
+
+    "codigo": "SRVO-011",
+
+    "descripcion": "TP liberado mientras habilitado",
+
+    "causa": "El cable del teach pendant fue desconectado durante operación",
+
+    "solucion": "Reconectar el teach pendant"
+
+  },
+
+  {
+
+    "codigo": "SRVO-012",
+
+    "descripcion": "Recuperación de energía",
+
+    "causa": "Arranque normal tras recuperación de energía",
+
+    "solucion": "No se requiere acción"
+
+  },
+
+  {
+
+    "codigo": "SRVO-013",
+
+    "descripcion": "Configuración del módulo servo cambiada",
+
+    "causa": "Cambio detectado en la configuración DSP al encender",
+
+    "solucion": "Arrancar el controlador en frío"
+
+  },
+
+  {
+
+    "codigo": "SRVO-014",
+
+    "descripcion": "Motor del ventilador anormal",
+
+    "causa": "Ventilador defectuoso o cable dañado",
+
+    "solucion": "Revisar o sustituir ventiladores y cableado"
+
+  },
+
+  {
+
+    "codigo": "SRVO-015",
+
+    "descripcion": "Sistema sobre temperatura",
+
+    "causa": "Temperatura del controlador demasiado alta",
+
+    "solucion": "Mejorar ventilación y revisar ventiladores"
+
+  },
+
+  {
+
+    "codigo": "SRVO-016",
+
+    "descripcion": "Bajo caudal de refrigeración",
+
+    "causa": "Reducción del volumen de agua de refrigeración",
+
+    "solucion": "Contactar con soporte técnico FANUC"
+
+  },
+
+  {
+
+    "codigo": "SRVO-017",
+
+    "descripcion": "Robot espejo no detectado",
+
+    "causa": "Configuración incorrecta de robot espejo",
+
+    "solucion": "Contactar con soporte técnico FANUC"
+
+  },
+
+  {
+
+    "codigo": "SRVO-018",
+
+    "descripcion": "Freno anormal",
+
+    "causa": "Corriente de freno fuera de especificación",
+
+    "solucion": "Revisar cableado de freno o sustituir amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-019",
+
+    "descripcion": "Entrada SVON desactivada",
+
+    "causa": "No hay puente entre SVON1 y SVON2",
+
+    "solucion": "Colocar puente SVON1-SVON2"
+
+  },
+
+  {
+
+    "codigo": "SRVO-020",
+
+    "descripcion": "SRDY apagado (TP)",
+
+    "causa": "Cable del teach pendant desconectado momentáneamente",
+
+    "solucion": "Revisar conexión del teach pendant"
+
+  },
+
+  {
+
+    "codigo": "SRVO-021",
+
+    "descripcion": "SRDY apagado",
+
+    "causa": "El contactor del amplificador no se activó",
+
+    "solucion": "Revisar amplificador y unidad EMG"
+
+  },
+
+  {
+
+    "codigo": "SRVO-022",
+
+    "descripcion": "SRDY encendido incorrectamente",
+
+    "causa": "Se detectó SRDY activo antes de comando",
+
+    "solucion": "Sustituir amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-023",
+
+    "descripcion": "Error excesivo al detener",
+
+    "causa": "Error de posición alto al detener el eje",
+
+    "solucion": "Revisar frenos, carga y amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-024",
+
+    "descripcion": "Error excesivo en movimiento",
+
+    "causa": "Error de seguimiento excede el límite",
+
+    "solucion": "Mismas acciones que SRVO-023"
+
+  },
+
+  {
+
+    "codigo": "SRVO-025",
+
+    "descripcion": "Desbordamiento de movimiento",
+
+    "causa": "Valor de comando demasiado grande",
+
+    "solucion": "Realizar arranque en frío"
+
+  }
+  ,
+
+  {
+
+    "codigo": "SRVO-026",
+
+    "descripcion": "Límite de velocidad del motor",
+
+    "causa": "Se intentó exceder la velocidad máxima del motor",
+
+    "solucion": "Reducir la velocidad configurada del eje"
+
+  },
+
+  {
+
+    "codigo": "SRVO-027",
+
+    "descripcion": "Robot no masterizado",
+
+    "causa": "El robot no ha sido masterizado",
+
+    "solucion": "Realizar el masterizado del robot"
+
+  },
+
+  {
+
+    "codigo": "SRVO-030",
+
+    "descripcion": "Freno en espera",
+
+    "causa": "Función de parada temporal activada",
+
+    "solucion": "Desactivar la función TEMPORARY STOP"
+
+  },
+
+  {
+
+    "codigo": "SRVO-031",
+
+    "descripcion": "Alarma de servo de usuario",
+
+    "causa": "Variable de sistema de alarma activada por usuario",
+
+    "solucion": "Notificación informativa, no requiere acción"
+
+  },
+
+  {
+
+    "codigo": "SRVO-033",
+
+    "descripcion": "Robot no calibrado",
+
+    "causa": "Se intentó ajustar referencia sin calibración",
+
+    "solucion": "Calibrar el robot desde el menú MASTER/CAL"
+
+  },
+
+  {
+
+    "codigo": "SRVO-034",
+
+    "descripcion": "Referencia no establecida",
+
+    "causa": "No existe punto de referencia Quick Master",
+
+    "solucion": "Configurar punto de referencia Quick Master"
+
+  },
+
+  {
+
+    "codigo": "SRVO-035",
+
+    "descripcion": "Límite común de velocidad",
+
+    "causa": "Velocidad del eje supera el límite configurado",
+
+    "solucion": "Reducir la velocidad del eje"
+
+  },
+
+  {
+
+    "codigo": "SRVO-036",
+
+    "descripcion": "Tiempo INPOS excedido",
+
+    "causa": "El robot no llegó a la posición a tiempo",
+
+    "solucion": "Revisar frenos, carga y alimentación"
+
+  },
+
+  {
+
+    "codigo": "SRVO-037",
+
+    "descripcion": "Entrada IMSTP activa",
+
+    "causa": "Señal IMSTP aplicada desde periférico",
+
+    "solucion": "Desactivar señal IMSTP o ajustar configuración"
+
+  },
+
+  {
+
+    "codigo": "SRVO-038",
+
+    "descripcion": "Desajuste de impulsos",
+
+    "causa": "Diferencia en datos del encoder tras apagado",
+
+    "solucion": "Remasterizar el robot"
+
+  },
+
+  {
+
+    "codigo": "SRVO-039",
+
+    "descripcion": "Exceso de velocidad del motor",
+
+    "causa": "Velocidad calculada supera especificación",
+
+    "solucion": "Reducir velocidad o desactivar CMC"
+
+  },
+
+  {
+
+    "codigo": "SRVO-040",
+
+    "descripcion": "Masterizado en posición de marca",
+
+    "causa": "Masterizado realizado en marca y no en cero",
+
+    "solucion": "Verificar modelo de robot y posición de marca"
+
+  },
+
+  {
+
+    "codigo": "SRVO-041",
+
+    "descripcion": "Alarma MOFAL",
+
+    "causa": "Valor de comando excesivo",
+
+    "solucion": "Registrar evento y contactar soporte FANUC"
+
+  },
+
+  {
+
+    "codigo": "SRVO-042",
+
+    "descripcion": "Alarma MCAL",
+
+    "causa": "Contactor magnético pegado",
+
+    "solucion": "Revisar o sustituir contactor y amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-043",
+
+    "descripcion": "Alarma DCAL",
+
+    "causa": "Exceso de energía regenerativa",
+
+    "solucion": "Reducir aceleraciones y revisar resistencias"
+
+  },
+
+  {
+
+    "codigo": "SRVO-044",
+
+    "descripcion": "Tensión DC alta",
+
+    "causa": "Voltaje DC del bus demasiado alto",
+
+    "solucion": "Revisar tensión de entrada y carga"
+
+  },
+
+  {
+
+    "codigo": "SRVO-045",
+
+    "descripcion": "Corriente alta en amplificador",
+
+    "causa": "Cortocircuito o motor defectuoso",
+
+    "solucion": "Revisar motor, cableado o sustituir amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-046",
+
+    "descripcion": "Protección térmica del motor",
+
+    "causa": "Corriente RMS excede el límite",
+
+    "solucion": "Reducir carga o ciclo de trabajo"
+
+  },
+
+  {
+
+    "codigo": "SRVO-047",
+
+    "descripcion": "Voltaje bajo de control",
+
+    "causa": "Fuente de alimentación defectuosa",
+
+    "solucion": "Sustituir amplificador o fuente"
+
+  },
+
+  {
+
+    "codigo": "SRVO-048",
+
+    "descripcion": "Alarma no aplicable",
+
+    "causa": "No ocurre en este modelo",
+
+    "solucion": "No se requiere acción"
+
+  },
+
+  {
+
+    "codigo": "SRVO-049",
+
+    "descripcion": "Sobretemperatura módulo de potencia",
+
+    "causa": "Fusible F1/F2 quemado o ventilación deficiente",
+
+    "solucion": "Revisar ventilación y sustituir amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-050",
+
+    "descripcion": "Detección de colisión",
+
+    "causa": "Par excesivo detectado durante movimiento",
+
+    "solucion": "Eliminar colisión y revisar carga"
+
+  }
+  ,
+
+  {
+
+    "codigo": "SRVO-051",
+
+    "descripcion": "Alarma CUER",
+
+    "causa": "Desplazamiento anormal del valor de corriente regenerativa",
+
+    "solucion": "Sustituir el amplificador del servo"
+
+  },
+
+  {
+
+    "codigo": "SRVO-053",
+
+    "descripcion": "Exceso de perturbación",
+
+    "causa": "La perturbación estimada supera el valor umbral",
+
+    "solucion": "Revisar carga y ajustar el límite de perturbación"
+
+  },
+
+  {
+
+    "codigo": "SRVO-054",
+
+    "descripcion": "Error de memoria DSM",
+
+    "causa": "Fallo de acceso a memoria del módulo servo",
+
+    "solucion": "Sustituir la tarjeta de control de ejes"
+
+  },
+
+  {
+
+    "codigo": "SRVO-055",
+
+    "descripcion": "Error de comunicación FSSB 1",
+
+    "causa": "Fallo de comunicación entre placa principal y amplificador",
+
+    "solucion": "Revisar fibra óptica o sustituir amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-056",
+
+    "descripcion": "Error de comunicación FSSB 2",
+
+    "causa": "Fallo de comunicación FSSB",
+
+    "solucion": "Revisar cable de fibra o tarjeta de control"
+
+  },
+
+  {
+
+    "codigo": "SRVO-057",
+
+    "descripcion": "Desconexión FSSB",
+
+    "causa": "Comunicación interrumpida con el amplificador",
+
+    "solucion": "Revisar fusibles, fibra óptica y amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-058",
+
+    "descripcion": "Error de inicio FSSB",
+
+    "causa": "No se inicializa la comunicación FSSB",
+
+    "solucion": "Revisar amplificador y cableado"
+
+  },
+
+  {
+
+    "codigo": "SRVO-059",
+
+    "descripcion": "Error de inicio del amplificador",
+
+    "causa": "Inicialización del servo amplificador fallida",
+
+    "solucion": "Sustituir amplificador"
+
+  },
+
+  {
+
+    "codigo": "SRVO-060",
+
+    "descripcion": "Error de inicio FSSB 2",
+
+    "causa": "Fallo de comunicación con eje adicional",
+
+    "solucion": "Revisar placa y amplificador del eje adicional"
+
+  },
+
+  {
+
+    "codigo": "SRVO-061",
+
+    "descripcion": "Alarma CKAL",
+
+    "causa": "Reloj de rotación del encoder anormal",
+
+    "solucion": "Sustituir encoder o motor y remasterizar"
+
+  },
+
+  {
+
+    "codigo": "SRVO-062",
+
+    "descripcion": "Batería de encoder desconectada",
+
+    "causa": "Batería del encoder no conectada",
+
+    "solucion": "Conectar batería, resetear SPC y masterizar"
+
+  },
+
+  {
+
+    "codigo": "SRVO-063",
+
+    "descripcion": "Alarma RCAL",
+
+    "causa": "Contador de rotación del encoder anormal",
+
+    "solucion": "Resetear SPC y remasterizar"
+
+  },
+
+  {
+
+    "codigo": "SRVO-064",
+
+    "descripcion": "Alarma PHAL",
+
+    "causa": "Fase de pulsos del encoder anormal",
+
+    "solucion": "Revisar conexión a tierra y sustituir encoder"
+
+  },
+
+  {
+
+    "codigo": "SRVO-065",
+
+    "descripcion": "Batería baja del encoder",
+
+    "causa": "Voltaje de batería por debajo del límite",
+
+    "solucion": "Sustituir batería del encoder"
+
+  },
+
+  {
+
+    "codigo": "SRVO-066",
+
+    "descripcion": "Checksum ROM del encoder incorrecto",
+
+    "causa": "Datos ROM del encoder corruptos",
+
+    "solucion": "Sustituir encoder y remasterizar"
+
+  },
+
+  {
+
+    "codigo": "SRVO-067",
+
+    "descripcion": "Sobretemperatura del encoder",
+
+    "causa": "Temperatura del encoder demasiado alta",
+
+    "solucion": "Reducir carga o sustituir motor"
+
+  },
+
+  {
+
+    "codigo": "SRVO-068",
+
+    "descripcion": "Error de datos serie del encoder",
+
+    "causa": "El encoder no responde a la solicitud",
+
+    "solucion": "Revisar CRF7, cable y sustituir encoder"
+
+  },
+
+  {
+
+    "codigo": "SRVO-069",
+
+    "descripcion": "Error CRC de encoder",
+
+    "causa": "Datos serie alterados por ruido",
+
+    "solucion": "Revisar puesta a tierra y cableado"
+
+  },
+
+  {
+
+    "codigo": "SRVO-070",
+
+    "descripcion": "Error de bits de inicio/parada",
+
+    "causa": "Formato de datos serie inválido",
+
+    "solucion": "Revisar amplificador y encoder"
+
+  },
+
+  {
+
+    "codigo": "SRVO-071",
+
+    "descripcion": "Velocidad de reacción anormal",
+
+    "causa": "Respuesta excesiva del encoder",
+
+    "solucion": "Sustituir encoder"
+
+  },
+
+  {
+
+    "codigo": "SRVO-072",
+
+    "descripcion": "Encoder anormal",
+
+    "causa": "Funcionamiento incorrecto del encoder",
+
+    "solucion": "Sustituir encoder y remasterizar"
+
+  },
+
+  {
+
+    "codigo": "SRVO-073",
+
+    "descripcion": "Fallo CMAL del encoder",
+
+    "causa": "Encoder defectuoso o ruido eléctrico",
+
+    "solucion": "Revisar tierra y sustituir encoder"
+
+  },
+
+  {
+
+    "codigo": "SRVO-074",
+
+    "descripcion": "LED del encoder defectuoso",
+
+    "causa": "Fallo interno del encoder",
+
+    "solucion": "Sustituir encoder y remasterizar"
+
+  },
+
+  {
+
+    "codigo": "SRVO-075",
+
+    "descripcion": "Pulso absoluto no establecido",
+
+    "causa": "No se pudo establecer la posición absoluta",
+
+    "solucion": "Mover el eje al menos una vuelta"
+
+  }
+  ,
+
+  {
+
+    "codigo": "SRVO-076",
+
+    "descripcion": "Detección de stick en inicio",
+
+    "causa": "Carga anormal detectada al iniciar movimiento",
+
+    "solucion": "Eliminar colisión, revisar carga y freno"
+
+  },
+
+  {
+
+    "codigo": "SRVO-077",
+
+    "descripcion": "Alarma dinámica de freno",
+
+    "causa": "Desbordamiento de impulsos en seguimiento",
+
+    "solucion": "Contactar con soporte técnico FANUC"
+
+  },
+
+  {
+
+    "codigo": "SRVO-081",
+
+    "descripcion": "Desbordamiento encoder de tracking",
+
+    "causa": "El contador del encoder de tracking excedió el límite",
+
+    "solucion": "Revisar estado del módulo de tracking"
+
+  },
+
+  {
+
+    "codigo": "SRVO-082",
+
+    "descripcion": "Encoder de tracking desconectado",
+
+    "causa": "El encoder de seguimiento no está conectado",
+
+    "solucion": "Revisar cableado y conexión a tierra"
+
+  },
+
+  {
+
+    "codigo": "SRVO-083",
+
+    "descripcion": "Reloj encoder de tracking anormal",
+
+    "causa": "Señal de reloj del encoder de tracking incorrecta",
+
+    "solucion": "Sustituir encoder o tarjeta de tracking"
+
+  }
+    ,
+
+  {
+
+    "codigo": "SRVO-084",
+
+    "descripcion": "Error de posición de tracking",
+
+    "causa": "Error de posición excede el límite en line tracking",
+
+    "solucion": "Revisar encoder de tracking y configuración"
+
+  },
+
+  {
+
+    "codigo": "SRVO-085",
+
+    "descripcion": "Tracking no inicializado",
+
+    "causa": "El sistema de seguimiento no fue inicializado",
+
+    "solucion": "Inicializar el sistema de line tracking"
+
+  },
+
+  {
+
+    "codigo": "SRVO-086",
+
+    "descripcion": "Fallo de sincronización de tracking",
+
+    "causa": "Desfase entre robot y línea",
+
+    "solucion": "Revisar parámetros de sincronización"
+
+  },
+
+  {
+
+    "codigo": "SRVO-087",
+
+    "descripcion": "Error de dirección de tracking",
+
+    "causa": "Dirección de seguimiento incorrecta",
+
+    "solucion": "Verificar dirección del encoder de tracking"
+
+  },
+
+  {
+
+    "codigo": "SRVO-088",
+
+    "descripcion": "Tracking fuera de rango",
+
+    "causa": "Velocidad o posición fuera del rango permitido",
+
+    "solucion": "Ajustar parámetros de tracking"
+
+  },
+
+  {
+
+    "codigo": "SRVO-089",
+
+    "descripcion": "Error de ganancia de tracking",
+
+    "causa": "Ganancia de control inadecuada",
+
+    "solucion": "Ajustar ganancia de tracking"
+
+  },
+
+  {
+
+    "codigo": "SRVO-090",
+
+    "descripcion": "Seguimiento inestable",
+
+    "causa": "Ruido o mala señal del encoder",
+
+    "solucion": "Revisar cableado y puesta a tierra"
+
+  },
+
+  {
+
+    "codigo": "SRVO-091",
+
+    "descripcion": "Error de aceleración en tracking",
+
+    "causa": "Aceleración excede límites permitidos",
+
+    "solucion": "Reducir aceleración del seguimiento"
+
+  },
+
+  {
+
+    "codigo": "SRVO-092",
+
+    "descripcion": "Error de desaceleración en tracking",
+
+    "causa": "Desaceleración excesiva",
+
+    "solucion": "Ajustar parámetros de desaceleración"
+
+  },
+
+  {
+
+    "codigo": "SRVO-093",
+
+    "descripcion": "Tracking detenido por seguridad",
+
+    "causa": "Señal de seguridad activa durante seguimiento",
+
+    "solucion": "Revisar señales de seguridad"
+
+  },
+
+  {
+
+    "codigo": "SRVO-094",
+
+    "descripcion": "Tracking cancelado",
+
+    "causa": "Cancelación del seguimiento por evento externo",
+
+    "solucion": "Reiniciar ciclo de seguimiento"
+
+  },
+
+  {
+
+    "codigo": "SRVO-095",
+
+    "descripcion": "Error de referencia de tracking",
+
+    "causa": "Referencia de seguimiento no válida",
+
+    "solucion": "Reconfigurar referencia de tracking"
+
+  },
+
+  {
+
+    "codigo": "SRVO-096",
+
+    "descripcion": "Tracking fuera de sincronía",
+
+    "causa": "Desfase continuo entre robot y línea",
+
+    "solucion": "Revisar encoder y parámetros"
+
+  },
+
+  {
+
+    "codigo": "SRVO-097",
+
+    "descripcion": "Error de comunicación de tracking",
+
+    "causa": "Fallo de comunicación con módulo de tracking",
+
+    "solucion": "Revisar tarjeta y cableado"
+
+  },
+
+  {
+
+    "codigo": "SRVO-098",
+
+    "descripcion": "Tracking no habilitado",
+
+    "causa": "Función de tracking deshabilitada en software",
+
+    "solucion": "Habilitar tracking en configuración"
+
+  },
+
+  {
+
+    "codigo": "SRVO-099",
+
+    "descripcion": "Error de configuración de tracking",
+
+    "causa": "Parámetros incorrectos de tracking",
+
+    "solucion": "Revisar configuración del sistema"
+
+  },
+
+  {
+
+    "codigo": "SRVO-100",
+
+    "descripcion": "Tracking finalizado anormalmente",
+
+    "causa": "Finalización inesperada del seguimiento",
+
+    "solucion": "Analizar historial de alarmas"
+
+  }
+   ,
+
+  {
+
+    "codigo": "SRVO-101",
+
+    "descripcion": "Error de límite de par",
+
+    "causa": "El par del motor excedió el límite permitido",
+
+    "solucion": "Reducir carga o revisar parámetros de par"
+
+  },
+
+  {
+
+    "codigo": "SRVO-102",
+
+    "descripcion": "Error de compensación de gravedad",
+
+    "causa": "Compensación de gravedad incorrecta",
+
+    "solucion": "Revisar datos de carga y masterizado"
+
+  },
+
+  {
+
+    "codigo": "SRVO-103",
+
+    "descripcion": "Error de control dinámico",
+
+    "causa": "Parámetros dinámicos incorrectos",
+
+    "solucion": "Restaurar parámetros de servo"
+
+  },
+
+  {
+
+    "codigo": "SRVO-104",
+
+    "descripcion": "Error de oscilación",
+
+    "causa": "Oscilación excesiva detectada",
+
+    "solucion": "Reducir ganancia o velocidad"
+
+  },
+
+  {
+
+    "codigo": "SRVO-105",
+
+    "descripcion": "Error de estabilidad del servo",
+
+    "causa": "Respuesta inestable del servo",
+
+    "solucion": "Ajustar parámetros de control"
+
+  },
+
+  {
+
+    "codigo": "SRVO-106",
+
+    "descripcion": "Error de seguimiento de trayectoria",
+
+    "causa": "El robot no sigue la trayectoria programada",
+
+    "solucion": "Reducir velocidad y revisar carga"
+
+  },
+
+  {
+
+    "codigo": "SRVO-107",
+
+    "descripcion": "Error de interpolación",
+
+    "causa": "Interpolación de movimiento incorrecta",
+
+    "solucion": "Revisar programa y parámetros"
+
+  },
+
+  {
+
+    "codigo": "SRVO-108",
+
+    "descripcion": "Error de sincronización multieje",
+
+    "causa": "Desfase entre ejes durante movimiento",
+
+    "solucion": "Revisar masterizado y parámetros"
+
+  },
+
+  {
+
+    "codigo": "SRVO-109",
+
+    "descripcion": "Error de límite de aceleración",
+
+    "causa": "Aceleración excede el límite permitido",
+
+    "solucion": "Reducir aceleración del programa"
+
+  },
+
+  {
+
+    "codigo": "SRVO-110",
+
+    "descripcion": "Error de límite de desaceleración",
+
+    "causa": "Desaceleración excesiva detectada",
+
+    "solucion": "Ajustar parámetros de desaceleración"
+
+  },
+
+  {
+
+    "codigo": "SRVO-111",
+
+    "descripcion": "Error de sincronización externa",
+
+    "causa": "Señal externa fuera de sincronía",
+
+    "solucion": "Revisar señales de entrada/salida"
+
+  },
+
+  {
+
+    "codigo": "SRVO-112",
+
+    "descripcion": "Error de referencia absoluta",
+
+    "causa": "Referencia absoluta inválida",
+
+    "solucion": "Remasterizar el robot"
+
+  },
+
+  {
+
+    "codigo": "SRVO-113",
+
+    "descripcion": "Error de cálculo de posición",
+
+    "causa": "Cálculo interno de posición fallido",
+
+    "solucion": "Reiniciar controlador y revisar servo"
+
+  },
+
+  {
+
+    "codigo": "SRVO-114",
+
+    "descripcion": "Error de memoria de trayectoria",
+
+    "causa": "Datos de trayectoria corruptos",
+
+    "solucion": "Reiniciar y restaurar backup"
+
+  },
+
+  {
+
+    "codigo": "SRVO-115",
+
+    "descripcion": "Error de verificación de movimiento",
+
+    "causa": "Verificación de movimiento fallida",
+
+    "solucion": "Revisar programa y parámetros"
+
+  },
+
+  {
+
+    "codigo": "SRVO-116",
+
+    "descripcion": "Error de control de eje externo",
+
+    "causa": "Fallo en eje externo o amplificador",
+
+    "solucion": "Revisar eje externo y cableado"
+
+  },
+
+  {
+
+    "codigo": "SRVO-117",
+
+    "descripcion": "Error de sincronización con PLC",
+
+    "causa": "Desfase de comunicación con PLC",
+
+    "solucion": "Revisar comunicación y señales"
+
+  },
+
+  {
+
+    "codigo": "SRVO-118",
+
+    "descripcion": "Error crítico del sistema servo",
+
+    "causa": "Fallo grave del sistema servo",
+
+    "solucion": "Apagar el sistema y contactar con FANUC"
+
+  }
+
+]
+
 
