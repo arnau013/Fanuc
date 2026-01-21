@@ -1336,7 +1336,1160 @@
     "solucion": "Apagar el sistema y contactar con FANUC"
 
   }
-
+  ,
+  {
+    "codigo": "SRVO-121",
+    "descripcion": "SERVO excesiva según hora diciembre (G:%d)",
+    "causa": "El tiempo de aceleración es demasiado largo.",
+    "solucion": "Contactar con el servicio técnico de FANUC Robotics."
+  },
+  {
+    "codigo": "SRVO-122",
+    "descripcion": "SERVO mal ángulo última (interna) (G:%d)",
+    "causa": "El ángulo solicitado en la última actualización no coincide con el ángulo actual.",
+    "solucion": "Contactar con el servicio técnico de FANUC Robotics."
+  },
+  {
+    "codigo": "SRVO-125",
+    "descripcion": "ADVERTENCIA parada rápida velocidad excesiva (G:%d)",
+    "causa": "La velocidad de movimiento es demasiado alta para ejecutar una parada rápida.",
+    "solucion": "Reducir la velocidad de movimiento."
+  },
+  {
+    "codigo": "SRVO-126",
+    "descripcion": "SERVO error de detención rápida (G:%d)",
+    "causa": "El programa terminó durante el proceso de una parada rápida.",
+    "solucion": "Pulsar el botón RESET."
+  }
+    ,
+  {
+    "codigo": "SRVO-130",
+    "descripcion": "SERVO OHAL1 (PSM) Alarma (G:%d R:%d)",
+    "causa": "El servoamplificador (PSM) está sobrecalentado.",
+    "solucion": "Consultar el manual de mantenimiento y revisar ventilación y carga."
+  },
+  {
+    "codigo": "SRVO-131",
+    "descripcion": "SERVO LVAL (PSM) Alarma (G:%d R:%d)",
+    "causa": "El voltaje CC del circuito principal del amplificador es inferior a la especificación, aunque MCC está encendido.",
+    "solucion": "Consultar el manual de mantenimiento y revisar alimentación."
+  },
+  {
+    "codigo": "SRVO-132",
+    "descripcion": "SERVO HCAL (PSM) Alarma (G:%d R:%d)",
+    "causa": "La corriente en el circuito principal del servoamplificador excede las especificaciones.",
+    "solucion": "Consultar el manual de mantenimiento."
+  },
+  {
+    "codigo": "SRVO-133",
+    "descripcion": "SERVO FSAL (PSM) Alarma (G:%d R:%d)",
+    "causa": "El ventilador de refrigeración del circuito de control se ha detenido.",
+    "solucion": "Consultar el manual de mantenimiento."
+  },
+  {
+    "codigo": "SRVO-134",
+    "descripcion": "SERVO DCLVAL (PSM) Alarma (G:%d R:%d)",
+    "causa": "El circuito de carga de respaldo del amplificador presenta un problema.",
+    "solucion": "Revisar cables y conexiones entre amplificador (CN1) y MCC, fusibles F1/F3 y sustituir el amplificador si es necesario."
+  },
+  {
+    "codigo": "SRVO-135",
+    "descripcion": "SERVO FSAL Alarma (G:%d R:%d)",
+    "causa": "El ventilador de refrigeración del circuito de control se ha detenido.",
+    "solucion": "Verificar o reemplazar el ventilador."
+  },
+  {
+    "codigo": "SRVO-136",
+    "descripcion": "SERVO DCLVAL Alarma (G:%d R:%d)",
+    "causa": "El voltaje del enlace DC del servoamplificador es anormalmente bajo.",
+    "solucion": "Verificar tensión de entrada, fase y configuración del transformador."
+  },
+  {
+    "codigo": "SRVO-137",
+    "descripcion": "SERVO DAL Alarma (G:%d R:%d)",
+    "causa": "Se detectó una alarma DAL en el amplificador.",
+    "solucion": "Consultar el manual de mantenimiento."
+  },
+  {
+    "codigo": "SRVO-138",
+    "descripcion": "SERVO SDAL Alarma (G:%d R:%d)",
+    "causa": "Los datos de retorno del codificador de pulsos son anormales, probablemente por ruido o fallo del circuito de interpolación.",
+    "solucion": "Verificar puesta a tierra y, si persiste, sustituir el codificador y remasterizar."
+  }
+    ,
+  {
+    "codigo": "SRVO-141",
+    "descripcion": "SERVO OHAL1 (CNV) Alarma (G:%d R:%d)",
+    "causa": "El termostato incorporado del servomotor se ha activado.",
+    "solucion": "Consulte el remedio de la alarma SRVO-049."
+  },
+  {
+    "codigo": "SRVO-142",
+    "descripcion": "SERVO LVAL (CNV) Alarma (G:%d R:%d)",
+    "causa": "El voltaje del enlace DC del convertidor es inferior al valor especificado.",
+    "solucion": "Revisar la alimentación de entrada y el convertidor."
+  },
+  {
+    "codigo": "SRVO-143",
+    "descripcion": "SERVO HCAL (CNV) Alarma (G:%d R:%d)",
+    "causa": "La corriente del convertidor excedió las especificaciones.",
+    "solucion": "Consultar el manual de mantenimiento y revisar la carga."
+  },
+  {
+    "codigo": "SRVO-144",
+    "descripcion": "SERVO FSAL (CNV) Alarma (G:%d R:%d)",
+    "causa": "El ventilador de refrigeración del convertidor se ha detenido.",
+    "solucion": "Verificar o sustituir el ventilador."
+  },
+  {
+    "codigo": "SRVO-145",
+    "descripcion": "SERVO DCLVAL (CNV) Alarma (G:%d R:%d)",
+    "causa": "El voltaje del circuito DC del convertidor es anormalmente bajo.",
+    "solucion": "Comprobar tensión de entrada y configuración del transformador."
+  },
+  {
+    "codigo": "SRVO-146",
+    "descripcion": "SERVO DAL (CNV) Alarma (G:%d R:%d)",
+    "causa": "Se detectó una alarma DAL en el convertidor.",
+    "solucion": "Consultar el manual de mantenimiento."
+  },
+  {
+    "codigo": "SRVO-147",
+    "descripcion": "SERVO SDAL (CNV) Alarma (G:%d R:%d)",
+    "causa": "Los datos de retorno del codificador del motor son anormales.",
+    "solucion": "Verificar puesta a tierra; sustituir el codificador si es necesario."
+  },
+  {
+    "codigo": "SRVO-148",
+    "descripcion": "SERVO alarma de protección del motor (CNV)",
+    "causa": "Protección térmica o eléctrica del motor activada.",
+    "solucion": "Eliminar la causa de sobrecarga y reiniciar."
+  },
+  {
+    "codigo": "SRVO-149",
+    "descripcion": "SERVO error interno del convertidor",
+    "causa": "Fallo interno detectado en el convertidor.",
+    "solucion": "Sustituir el convertidor y contactar con FANUC."
+  }
+    ,
+  {
+    "codigo": "SRVO-181",
+    "descripcion": "SERVO entrada MMCD durante estimación (G:%d)",
+    "causa": "El robot se intentó mover mientras se realizaba la identificación de la carga útil.",
+    "solucion": "Pulse RESET y no mueva el robot durante la identificación de la carga."
+  },
+  {
+    "codigo": "SRVO-182",
+    "descripcion": "PAUSA inicio necesario no realizado",
+    "causa": "Error interno del sistema. No se inicializaron variables o memoria de trabajo.",
+    "solucion": "Apagar y encender el controlador. Si persiste, contactar con FANUC."
+  },
+  {
+    "codigo": "SRVO-183",
+    "descripcion": "PAUSA robot no está listo",
+    "causa": "Servo Ready (SRDY) está apagado.",
+    "solucion": "Eliminar la causa de SRDY apagado y pulsar RESET."
+  },
+  {
+    "codigo": "SRVO-184",
+    "descripcion": "PAUSA otra tarea está procesando",
+    "causa": "Los datos requeridos están siendo usados por otra tarea.",
+    "solucion": "Esperar a que la otra tarea termine y reintentar."
+  },
+  {
+    "codigo": "SRVO-185",
+    "descripcion": "PAUSA datos pertenecen a otro grupo",
+    "causa": "Los datos solicitados corresponden a otro grupo.",
+    "solucion": "Obtener los datos del grupo correcto y reintentar."
+  },
+  {
+    "codigo": "SRVO-186",
+    "descripcion": "PAUSA datos necesarios no obtenidos",
+    "causa": "Los datos requeridos no están disponibles o no corresponden al modo actual.",
+    "solucion": "Obtener los datos necesarios y reintentar."
+  },
+  {
+    "codigo": "SRVO-187",
+    "descripcion": "PAUSA se requiere especificar masa",
+    "causa": "El parámetro de masa es necesario para estimar la carga.",
+    "solucion": "Especificar el parámetro de masa antes de la estimación."
+  }
+    ,
+  {
+    "codigo": "SRVO-191",
+    "descripcion": "SERVO estimación de carga no terminada",
+    "causa": "La estimación de la carga fue interrumpida antes de completarse.",
+    "solucion": "Repetir la estimación de carga sin mover el robot."
+  },
+  {
+    "codigo": "SRVO-192",
+    "descripcion": "SERVO estimación de carga cancelada",
+    "causa": "La estimación de carga fue cancelada por una condición externa.",
+    "solucion": "Eliminar la causa y reiniciar la estimación."
+  },
+  {
+    "codigo": "SRVO-197",
+    "descripcion": "SERVO masa estimada fuera de rango",
+    "causa": "La masa estimada excede el rango permitido para el robot.",
+    "solucion": "Verificar datos de carga y herramienta instalada."
+  },
+  {
+    "codigo": "SRVO-199",
+    "descripcion": "SERVO momento de inercia estimado fuera de rango",
+    "causa": "El momento de inercia calculado es mayor que el permitido.",
+    "solucion": "Revisar herramienta, carga y parámetros de estimación."
+  },
+  {
+    "codigo": "SRVO-200",
+    "descripcion": "SERVO error de cálculo de estimación",
+    "causa": "Error interno durante el cálculo de la estimación de carga.",
+    "solucion": "Reiniciar el controlador y repetir la estimación."
+  },
+  {
+    "codigo": "SRVO-201",
+    "descripcion": "SERVO datos de estimación inconsistentes",
+    "causa": "Los datos obtenidos durante la estimación no son coherentes.",
+    "solucion": "Repetir el proceso de estimación desde el inicio."
+  }
+    ,
+  {
+    "codigo": "SRVO-207",
+    "descripcion": "SERVO TP anormal o interruptor de puerta abierta",
+    "causa": "Se detecta la señal SVEMG mientras la valla está abierta y el colgante de enseñanza está habilitado y el interruptor de hombre muerto no está liberado; o la puerta del controlador está abierta en la misma condición.",
+    "solucion": "Cerrar la puerta del controlador. Si no se abre, corregir el cableado SVEMG o el interruptor de habilitación y el interruptor de hombre muerto del colgante. Pulsar RESET."
+  },
+  {
+    "codigo": "SRVO-208",
+    "descripcion": "SERVO eje extendido freno anormal",
+    "causa": "La corriente FET del freno de un eje extendido (freno nº 2 o superior) superó las especificaciones.",
+    "solucion": "Comprobar el freno (impedancia cero o anormalmente baja), el cable del freno y la alimentación 200 VAC. Revisar el servoamplificador o la PCB de parada de emergencia si se usan puertos de freno."
+  },
+  {
+    "codigo": "SRVO-209",
+    "descripcion": "SERVO Robot-2 SVEMG anormal",
+    "causa": "Se detectó cableado incorrecto de la señal SVEMG del Robot 2.",
+    "solucion": "Apagar. Corregir el cableado SVEMG en el controlador del segundo robot. Cerrar el circuito y pulsar RESET."
+  },
+  {
+    "codigo": "SRVO-210",
+    "descripcion": "SERVO EX_robot SVEMG anormal",
+    "causa": "Se detectó cableado incorrecto de la señal SVEMG del robot extendido.",
+    "solucion": "Apagar. Corregir el cableado SVEMG del robot extendido. Cerrar el circuito y pulsar RESET."
+  }
+    ,
+  {
+    "codigo": "SRVO-211",
+    "descripcion": "SERVO OFF TP en T1, T2",
+    "causa": "El colgante de enseñanza está desactivado cuando el selector de modo está en T1 o T2 y Robot1 y Robot2 están desconectados o existe un cableado incorrecto del hardware.",
+    "solucion": "Cambiar el interruptor TP Enable/Disable a ON y pulsar RESET. Si no se soluciona, revisar el hardware y el cableado."
+  },
+  {
+    "codigo": "SRVO-212",
+    "descripcion": "SERVO Trans a fuego",
+    "causa": "El fusible de la placa PCB del panel se ha quemado.",
+    "solucion": "Sustituir el fusible correspondiente de la placa PCB del panel."
+  },
+  {
+    "codigo": "SRVO-213",
+    "descripcion": "SERVO fusible fundido (Panel PCB)",
+    "causa": "Un fusible de la placa del panel del operador se ha quemado.",
+    "solucion": "Comprobar FUSE1 en la placa del panel del operador, revisar alimentación externa 24VDC, cables JRS11, y sustituir la placa del panel o la placa principal si es necesario (realizar copia de seguridad antes)."
+  }
+    ,
+  {
+    "codigo": "SRVO-202",
+    "descripcion": "SERVO TP parada de emergencia o SVEMG anormal",
+    "causa": "El botón de parada de emergencia del panel del operador fue presionado, pero el circuito de parada de emergencia no se desconectó correctamente.",
+    "solucion": "No presionar el botón de parada de emergencia lentamente. Revisar consola portátil, panel del operador y sustituir la unidad de parada de emergencia si es necesario."
+  },
+  {
+    "codigo": "SRVO-204",
+    "descripcion": "SERVO sistema externo (SVEMG anormal) de parada de emergencia",
+    "causa": "El interruptor conectado a EES1–EES11 o EES2–EES21 fue presionado, pero el circuito de parada de emergencia no se abrió.",
+    "solucion": "Revisar interruptores y cableado en TBOP4. Sustituir placa del panel, unidad de parada de emergencia o amplificador si procede."
+  },
+  {
+    "codigo": "SRVO-280",
+    "descripcion": "SERVO entrada SVOFF",
+    "causa": "No hay conexión entre los terminales EGS1–EGS11 o EGS2–EGS21 en TBOP4, o el interruptor conectado está activado.",
+    "solucion": "Revisar o retirar interruptor externo, cableado TBOP4, fusible FUSE1 y alimentación 24VDC. Sustituir placa si es necesario."
+  },
+  {
+    "codigo": "SRVO-281",
+    "descripcion": "SERVO entrada del sistema SVOFF (SVEMG anormal)",
+    "causa": "Cuando se activó la señal SVOFF, se detectó un error SVEMG. El circuito de parada de emergencia está defectuoso.",
+    "solucion": "Revisar cableado EGS/EES, placa del panel, unidad de parada de emergencia, amplificador y placa principal. Realizar copia de seguridad antes de sustituir componentes."
+  }
+    ,
+  {
+    "codigo": "SYST-001",
+    "descripcion": "SISTEMA error interno",
+    "causa": "Se produjo un error interno del sistema.",
+    "solucion": "Apagar y encender el controlador. Si persiste, contactar con FANUC."
+  },
+  {
+    "codigo": "SYST-002",
+    "descripcion": "SISTEMA error de inicialización",
+    "causa": "Falló la inicialización del sistema al arrancar.",
+    "solucion": "Realizar arranque en frío. Restaurar backup si es necesario."
+  },
+  {
+    "codigo": "SYST-003",
+    "descripcion": "SISTEMA error de tarea",
+    "causa": "Una tarea del sistema se detuvo inesperadamente.",
+    "solucion": "Reiniciar el controlador y revisar registros del sistema."
+  },
+  {
+    "codigo": "SYST-004",
+    "descripcion": "SISTEMA error de memoria",
+    "causa": "Error detectado en la memoria del sistema.",
+    "solucion": "Apagar/encender. Si continúa, sustituir hardware y restaurar backup."
+  },
+  {
+    "codigo": "SYST-005",
+    "descripcion": "SISTEMA watchdog activado",
+    "causa": "El temporizador watchdog detectó que el sistema no respondió.",
+    "solucion": "Reiniciar el controlador. Revisar opciones instaladas."
+  },
+  {
+    "codigo": "SYST-006",
+    "descripcion": "SISTEMA error de comunicación interna",
+    "causa": "Fallo de comunicación entre módulos internos del controlador.",
+    "solucion": "Revisar conexiones internas y sustituir la placa defectuosa."
+  }
+    ,
+  {
+    "codigo": "SYST-007",
+    "descripcion": "SISTEMA error de archivo",
+    "causa": "Error detectado al acceder a un archivo del sistema.",
+    "solucion": "Reiniciar el controlador. Comprobar el sistema de archivos y restaurar copia de seguridad si es necesario."
+  },
+  {
+    "codigo": "SYST-008",
+    "descripcion": "SISTEMA archivo no encontrado",
+    "causa": "El archivo requerido por el sistema no existe o está dañado.",
+    "solucion": "Restaurar el archivo desde una copia de seguridad."
+  },
+  {
+    "codigo": "SYST-009",
+    "descripcion": "SISTEMA archivo corrupto",
+    "causa": "Se detectaron datos inválidos en un archivo del sistema.",
+    "solucion": "Restaurar el sistema desde una copia de seguridad válida."
+  },
+  {
+    "codigo": "SYST-010",
+    "descripcion": "SISTEMA memoria insuficiente",
+    "causa": "No hay memoria suficiente para ejecutar la operación solicitada.",
+    "solucion": "Eliminar datos innecesarios o ampliar memoria si es posible."
+  },
+  {
+    "codigo": "SYST-011",
+    "descripcion": "SISTEMA error de asignación de memoria",
+    "causa": "Fallo al asignar memoria para un proceso del sistema.",
+    "solucion": "Reiniciar el controlador. Si persiste, contactar con FANUC."
+  },
+  {
+    "codigo": "SYST-012",
+    "descripcion": "SISTEMA error de tarea del sistema",
+    "causa": "Una tarea del sistema terminó de forma anormal.",
+    "solucion": "Reiniciar el sistema y revisar el historial de alarmas."
+  },
+  {
+    "codigo": "SYST-013",
+    "descripcion": "SISTEMA error de sincronización",
+    "causa": "Fallo en la sincronización entre tareas del sistema.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-014",
+    "descripcion": "SISTEMA error de configuración",
+    "causa": "La configuración del sistema es inconsistente o inválida.",
+    "solucion": "Revisar configuración y restaurar backup si procede."
+  },
+  {
+    "codigo": "SYST-015",
+    "descripcion": "SISTEMA error fatal",
+    "causa": "Se produjo un error grave que impide el funcionamiento normal del sistema.",
+    "solucion": "Apagar el controlador y contactar con FANUC Robotics."
+  }
+    ,
+  {
+    "codigo": "SYST-016",
+    "descripcion": "SISTEMA error de comunicación externa",
+    "causa": "Fallo en la comunicación con un dispositivo externo o red.",
+    "solucion": "Revisar cableado, configuración de red y estado del dispositivo externo."
+  },
+  {
+    "codigo": "SYST-017",
+    "descripcion": "SISTEMA tiempo de espera de comunicación",
+    "causa": "No se recibió respuesta dentro del tiempo esperado.",
+    "solucion": "Comprobar la carga del sistema y la comunicación externa."
+  },
+  {
+    "codigo": "SYST-018",
+    "descripcion": "SISTEMA error de inicialización de red",
+    "causa": "La red no pudo inicializarse correctamente al arrancar.",
+    "solucion": "Revisar parámetros de red y reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-019",
+    "descripcion": "SISTEMA conflicto de recursos",
+    "causa": "Dos o más procesos intentan usar el mismo recurso del sistema.",
+    "solucion": "Revisar configuración y secuencia de arranque."
+  },
+  {
+    "codigo": "SYST-020",
+    "descripcion": "SISTEMA error de acceso a dispositivo",
+    "causa": "Acceso fallido a un dispositivo interno o externo.",
+    "solucion": "Verificar conexiones y estado del dispositivo."
+  },
+  {
+    "codigo": "SYST-021",
+    "descripcion": "SISTEMA error de escritura en memoria",
+    "causa": "No se pudo escribir correctamente en la memoria del sistema.",
+    "solucion": "Reiniciar el controlador. Si persiste, sustituir hardware."
+  },
+  {
+    "codigo": "SYST-022",
+    "descripcion": "SISTEMA error de lectura de memoria",
+    "causa": "Fallo al leer datos desde la memoria del sistema.",
+    "solucion": "Apagar/encender. Restaurar copia de seguridad si es necesario."
+  },
+  {
+    "codigo": "SYST-023",
+    "descripcion": "SISTEMA error de proceso",
+    "causa": "Un proceso del sistema se detuvo de forma anormal.",
+    "solucion": "Reiniciar el controlador y revisar registros."
+  },
+  {
+    "codigo": "SYST-024",
+    "descripcion": "SISTEMA error de temporización",
+    "causa": "Un temporizador interno excedió el límite permitido.",
+    "solucion": "Reiniciar el sistema y reducir carga de procesos."
+  },
+  {
+    "codigo": "SYST-025",
+    "descripcion": "SISTEMA error no definido",
+    "causa": "Se produjo un error del sistema sin código específico.",
+    "solucion": "Reiniciar el controlador y contactar con FANUC si persiste."
+  }
+    ,
+  {
+    "codigo": "SYST-026",
+    "descripcion": "SISTEMA error de inicialización de opción",
+    "causa": "Una opción instalada no se inicializó correctamente.",
+    "solucion": "Reiniciar el controlador. Si persiste, reinstalar la opción."
+  },
+  {
+    "codigo": "SYST-027",
+    "descripcion": "SISTEMA opción no válida",
+    "causa": "Se detectó una opción no válida o no autorizada.",
+    "solucion": "Verificar opciones instaladas y licencias."
+  },
+  {
+    "codigo": "SYST-028",
+    "descripcion": "SISTEMA opción incompatible",
+    "causa": "Una opción instalada no es compatible con la versión del sistema.",
+    "solucion": "Actualizar software o retirar la opción incompatible."
+  },
+  {
+    "codigo": "SYST-029",
+    "descripcion": "SISTEMA error de carga de opción",
+    "causa": "No se pudo cargar una opción durante el arranque.",
+    "solucion": "Reinstalar la opción afectada."
+  },
+  {
+    "codigo": "SYST-030",
+    "descripcion": "SISTEMA error de licencia",
+    "causa": "Problema con la licencia de una opción del sistema.",
+    "solucion": "Verificar archivo de licencia y contactar con FANUC."
+  },
+  {
+    "codigo": "SYST-031",
+    "descripcion": "SISTEMA licencia expirada",
+    "causa": "La licencia de una opción ha expirado.",
+    "solucion": "Renovar la licencia correspondiente."
+  },
+  {
+    "codigo": "SYST-032",
+    "descripcion": "SISTEMA error de validación de licencia",
+    "causa": "La licencia instalada no pudo validarse.",
+    "solucion": "Reinstalar la licencia correcta."
+  },
+  {
+    "codigo": "SYST-033",
+    "descripcion": "SISTEMA error de configuración de licencia",
+    "causa": "La configuración de licencias es inconsistente.",
+    "solucion": "Revisar y corregir configuración de licencias."
+  },
+  {
+    "codigo": "SYST-034",
+    "descripcion": "SISTEMA error de reloj del sistema",
+    "causa": "El reloj interno del sistema es incorrecto.",
+    "solucion": "Ajustar fecha y hora del sistema."
+  },
+  {
+    "codigo": "SYST-035",
+    "descripcion": "SISTEMA error de sincronización de hora",
+    "causa": "Fallo al sincronizar la hora con una fuente externa.",
+    "solucion": "Revisar configuración de red y servidor horario."
+  },
+  {
+    "codigo": "SYST-036",
+    "descripcion": "SISTEMA error de batería del sistema",
+    "causa": "La batería interna del sistema está baja o desconectada.",
+    "solucion": "Sustituir la batería del sistema."
+  },
+  {
+    "codigo": "SYST-037",
+    "descripcion": "SISTEMA batería del sistema descargada",
+    "causa": "La batería del sistema no mantiene los datos.",
+    "solucion": "Cambiar la batería y restaurar backup si es necesario."
+  },
+  {
+    "codigo": "SYST-038",
+    "descripcion": "SISTEMA error de arranque",
+    "causa": "Error detectado durante el arranque del sistema.",
+    "solucion": "Realizar arranque en frío."
+  },
+  {
+    "codigo": "SYST-039",
+    "descripcion": "SISTEMA arranque interrumpido",
+    "causa": "El proceso de arranque fue interrumpido.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-040",
+    "descripcion": "SISTEMA fallo crítico durante arranque",
+    "causa": "Error crítico detectado durante el inicio del sistema.",
+    "solucion": "Apagar el controlador y contactar con FANUC."
+  }
+    ,
+  {
+    "codigo": "SYST-041",
+    "descripcion": "SISTEMA error de acceso a disco",
+    "causa": "No se pudo acceder al dispositivo de almacenamiento del sistema.",
+    "solucion": "Reiniciar el controlador y verificar el estado del almacenamiento."
+  },
+  {
+    "codigo": "SYST-042",
+    "descripcion": "SISTEMA error de escritura en disco",
+    "causa": "Fallo al escribir datos en el dispositivo de almacenamiento.",
+    "solucion": "Comprobar el estado del disco y restaurar copia de seguridad si procede."
+  },
+  {
+    "codigo": "SYST-043",
+    "descripcion": "SISTEMA error de lectura en disco",
+    "causa": "Fallo al leer datos desde el dispositivo de almacenamiento.",
+    "solucion": "Revisar el medio de almacenamiento y reiniciar el sistema."
+  },
+  {
+    "codigo": "SYST-044",
+    "descripcion": "SISTEMA sistema de archivos dañado",
+    "causa": "El sistema de archivos contiene errores.",
+    "solucion": "Restaurar el sistema desde una copia de seguridad válida."
+  },
+  {
+    "codigo": "SYST-045",
+    "descripcion": "SISTEMA espacio en disco insuficiente",
+    "causa": "No hay espacio libre suficiente en el almacenamiento.",
+    "solucion": "Eliminar archivos innecesarios o ampliar capacidad."
+  },
+  {
+    "codigo": "SYST-046",
+    "descripcion": "SISTEMA error de montaje de dispositivo",
+    "causa": "No se pudo montar un dispositivo de almacenamiento.",
+    "solucion": "Revisar conexiones y configuración del dispositivo."
+  },
+  {
+    "codigo": "SYST-047",
+    "descripcion": "SISTEMA dispositivo no reconocido",
+    "causa": "El sistema no reconoce el dispositivo conectado.",
+    "solucion": "Comprobar compatibilidad y conexiones del dispositivo."
+  },
+  {
+    "codigo": "SYST-048",
+    "descripcion": "SISTEMA error de controlador de dispositivo",
+    "causa": "Fallo del controlador interno del dispositivo.",
+    "solucion": "Reiniciar el controlador y actualizar software si procede."
+  },
+  {
+    "codigo": "SYST-049",
+    "descripcion": "SISTEMA error de bus interno",
+    "causa": "Error de comunicación en el bus interno del sistema.",
+    "solucion": "Apagar/encender y revisar placas internas."
+  },
+  {
+    "codigo": "SYST-050",
+    "descripcion": "SISTEMA error de interrupción",
+    "causa": "Fallo en la gestión de interrupciones del sistema.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-051",
+    "descripcion": "SISTEMA error de temporizador interno",
+    "causa": "Un temporizador interno no respondió correctamente.",
+    "solucion": "Reducir carga del sistema y reiniciar."
+  },
+  {
+    "codigo": "SYST-052",
+    "descripcion": "SISTEMA error de cola de mensajes",
+    "causa": "La cola de mensajes del sistema está saturada o dañada.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-053",
+    "descripcion": "SISTEMA error de semáforo",
+    "causa": "Fallo en la sincronización de procesos del sistema.",
+    "solucion": "Reiniciar el sistema."
+  },
+  {
+    "codigo": "SYST-054",
+    "descripcion": "SISTEMA error de prioridad de tarea",
+    "causa": "Conflicto en la prioridad de ejecución de tareas.",
+    "solucion": "Revisar configuración y reiniciar."
+  },
+  {
+    "codigo": "SYST-055",
+    "descripcion": "SISTEMA error de planificación",
+    "causa": "El planificador del sistema falló.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-056",
+    "descripcion": "SISTEMA error de proceso bloqueado",
+    "causa": "Un proceso del sistema quedó bloqueado.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-057",
+    "descripcion": "SISTEMA error de recurso compartido",
+    "causa": "Acceso simultáneo incorrecto a un recurso compartido.",
+    "solucion": "Revisar configuración y reiniciar."
+  },
+  {
+    "codigo": "SYST-058",
+    "descripcion": "SISTEMA error de inicialización tardía",
+    "causa": "Un módulo no se inicializó en el tiempo esperado.",
+    "solucion": "Reiniciar el sistema."
+  },
+  {
+    "codigo": "SYST-059",
+    "descripcion": "SISTEMA error de validación interna",
+    "causa": "Fallo en una comprobación interna del sistema.",
+    "solucion": "Reiniciar y contactar con FANUC si persiste."
+  },
+  {
+    "codigo": "SYST-060",
+    "descripcion": "SISTEMA fallo interno no recuperable",
+    "causa": "Se produjo un fallo interno grave del sistema.",
+    "solucion": "Apagar el controlador y contactar con FANUC Robotics."
+  }
+    ,
+  {
+    "codigo": "SYST-061",
+    "descripcion": "SISTEMA error de comunicación con tarjeta opcional",
+    "causa": "No se puede establecer comunicación con una tarjeta opcional instalada.",
+    "solucion": "Revisar instalación de la tarjeta opcional y reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-062",
+    "descripcion": "SISTEMA tarjeta opcional no reconocida",
+    "causa": "La tarjeta opcional no fue reconocida durante el arranque.",
+    "solucion": "Reinstalar la tarjeta y verificar compatibilidad."
+  },
+  {
+    "codigo": "SYST-063",
+    "descripcion": "SISTEMA error de inicialización de tarjeta",
+    "causa": "Falló la inicialización de una tarjeta del sistema.",
+    "solucion": "Reiniciar el controlador. Sustituir la tarjeta si persiste."
+  },
+  {
+    "codigo": "SYST-064",
+    "descripcion": "SISTEMA error de configuración de tarjeta",
+    "causa": "Configuración incorrecta de una tarjeta del sistema.",
+    "solucion": "Revisar parámetros de configuración de hardware."
+  },
+  {
+    "codigo": "SYST-065",
+    "descripcion": "SISTEMA conflicto entre tarjetas",
+    "causa": "Dos tarjetas están intentando usar el mismo recurso.",
+    "solucion": "Revisar configuración de slots y direcciones."
+  },
+  {
+    "codigo": "SYST-066",
+    "descripcion": "SISTEMA error de E/S interna",
+    "causa": "Error detectado en el sistema de entradas/salidas internas.",
+    "solucion": "Revisar módulos de E/S y cableado interno."
+  },
+  {
+    "codigo": "SYST-067",
+    "descripcion": "SISTEMA fallo de módulo de E/S",
+    "causa": "Un módulo de entradas/salidas no responde correctamente.",
+    "solucion": "Sustituir el módulo de E/S defectuoso."
+  },
+  {
+    "codigo": "SYST-068",
+    "descripcion": "SISTEMA error de mapa de E/S",
+    "causa": "El mapa de E/S configurado es incorrecto.",
+    "solucion": "Revisar asignación de E/S en la configuración."
+  },
+  {
+    "codigo": "SYST-069",
+    "descripcion": "SISTEMA error de comunicación con E/S remotas",
+    "causa": "Fallo de comunicación con módulos de E/S remotos.",
+    "solucion": "Verificar red de campo, cableado y alimentación."
+  },
+  {
+    "codigo": "SYST-070",
+    "descripcion": "SISTEMA tiempo de espera de E/S remotas",
+    "causa": "No hay respuesta de las E/S remotas dentro del tiempo permitido.",
+    "solucion": "Revisar red, latencia y configuración de tiempo."
+  },
+  {
+    "codigo": "SYST-071",
+    "descripcion": "SISTEMA error de sincronización de E/S",
+    "causa": "Las E/S no están sincronizadas con el ciclo del sistema.",
+    "solucion": "Revisar configuración de sincronización."
+  },
+  {
+    "codigo": "SYST-072",
+    "descripcion": "SISTEMA error de watchdog de E/S",
+    "causa": "El watchdog de E/S detectó una condición anormal.",
+    "solucion": "Revisar módulos de E/S y reiniciar el sistema."
+  },
+  {
+    "codigo": "SYST-073",
+    "descripcion": "SISTEMA error de comunicación de red interna",
+    "causa": "Fallo en la red interna del controlador.",
+    "solucion": "Revisar placas internas y conexiones."
+  },
+  {
+    "codigo": "SYST-074",
+    "descripcion": "SISTEMA error de protocolo de comunicación",
+    "causa": "Se detectó un error en el protocolo de comunicación.",
+    "solucion": "Verificar configuración de red y firmware."
+  },
+  {
+    "codigo": "SYST-075",
+    "descripcion": "SISTEMA error de inicialización de red interna",
+    "causa": "La red interna no se inicializó correctamente.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-076",
+    "descripcion": "SISTEMA error de buffer de comunicación",
+    "causa": "Desbordamiento o fallo en el buffer de comunicación.",
+    "solucion": "Reducir carga de comunicaciones y reiniciar."
+  },
+  {
+    "codigo": "SYST-077",
+    "descripcion": "SISTEMA error de cola de red",
+    "causa": "La cola de mensajes de red está saturada.",
+    "solucion": "Revisar tráfico de red y configuración."
+  },
+  {
+    "codigo": "SYST-078",
+    "descripcion": "SISTEMA error de dirección de red",
+    "causa": "Dirección de red incorrecta o duplicada.",
+    "solucion": "Corregir la configuración de red."
+  },
+  {
+    "codigo": "SYST-079",
+    "descripcion": "SISTEMA error de configuración IP",
+    "causa": "Parámetros IP inválidos.",
+    "solucion": "Revisar configuración IP del controlador."
+  },
+  {
+    "codigo": "SYST-080",
+    "descripcion": "SISTEMA error crítico de red",
+    "causa": "Fallo grave en la comunicación de red.",
+    "solucion": "Reiniciar el controlador y contactar con FANUC si persiste."
+  }
+    ,
+  {
+    "codigo": "SYST-081",
+    "descripcion": "SISTEMA error de inicialización de CPU",
+    "causa": "La CPU no pudo inicializarse correctamente durante el arranque.",
+    "solucion": "Apagar y encender el controlador. Si persiste, sustituir la CPU."
+  },
+  {
+    "codigo": "SYST-082",
+    "descripcion": "SISTEMA error de comunicación con CPU",
+    "causa": "Fallo de comunicación entre la CPU y otros módulos.",
+    "solucion": "Revisar placas internas y conexiones."
+  },
+  {
+    "codigo": "SYST-083",
+    "descripcion": "SISTEMA watchdog de CPU activado",
+    "causa": "La CPU no respondió dentro del tiempo permitido.",
+    "solucion": "Reiniciar el controlador y reducir carga del sistema."
+  },
+  {
+    "codigo": "SYST-084",
+    "descripcion": "SISTEMA fallo interno de CPU",
+    "causa": "Error interno detectado en la CPU.",
+    "solucion": "Apagar el controlador y contactar con FANUC Robotics."
+  },
+  {
+    "codigo": "SYST-085",
+    "descripcion": "SISTEMA error de inicialización de servo",
+    "causa": "El sistema servo no se inicializó correctamente.",
+    "solucion": "Reiniciar el controlador y revisar amplificadores."
+  },
+  {
+    "codigo": "SYST-086",
+    "descripcion": "SISTEMA error de comunicación con servo",
+    "causa": "Fallo de comunicación entre el sistema y el servo.",
+    "solucion": "Revisar fibra óptica y módulos FSSB."
+  },
+  {
+    "codigo": "SYST-087",
+    "descripcion": "SISTEMA servo no responde",
+    "causa": "El sistema servo no respondió a los comandos.",
+    "solucion": "Revisar amplificador y cableado."
+  },
+  {
+    "codigo": "SYST-088",
+    "descripcion": "SISTEMA error de inicialización de ejes",
+    "causa": "Uno o más ejes no se inicializaron correctamente.",
+    "solucion": "Revisar estado de ejes y reiniciar."
+  },
+  {
+    "codigo": "SYST-089",
+    "descripcion": "SISTEMA error de configuración de ejes",
+    "causa": "Configuración de ejes incorrecta.",
+    "solucion": "Revisar configuración mecánica y parámetros."
+  },
+  {
+    "codigo": "SYST-090",
+    "descripcion": "SISTEMA error de grupo de movimiento",
+    "causa": "Error en la configuración o estado del grupo de movimiento.",
+    "solucion": "Revisar definición del grupo y reiniciar."
+  },
+  {
+    "codigo": "SYST-091",
+    "descripcion": "SISTEMA error de sincronización de grupos",
+    "causa": "Los grupos de movimiento no están sincronizados.",
+    "solucion": "Revisar configuración y parámetros de sincronización."
+  },
+  {
+    "codigo": "SYST-092",
+    "descripcion": "SISTEMA error de control de movimiento",
+    "causa": "Fallo interno del control de movimiento.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-093",
+    "descripcion": "SISTEMA error de planificación de movimiento",
+    "causa": "No se pudo planificar correctamente el movimiento.",
+    "solucion": "Reducir velocidad o complejidad del programa."
+  },
+  {
+    "codigo": "SYST-094",
+    "descripcion": "SISTEMA error de trayectoria",
+    "causa": "Error detectado en la trayectoria calculada.",
+    "solucion": "Revisar puntos y configuración del movimiento."
+  },
+  {
+    "codigo": "SYST-095",
+    "descripcion": "SISTEMA error de interpolación de movimiento",
+    "causa": "Error durante la interpolación de movimiento.",
+    "solucion": "Revisar parámetros de interpolación."
+  },
+  {
+    "codigo": "SYST-096",
+    "descripcion": "SISTEMA error de velocidad",
+    "causa": "Velocidad solicitada fuera de límites.",
+    "solucion": "Reducir velocidad del programa."
+  },
+  {
+    "codigo": "SYST-097",
+    "descripcion": "SISTEMA error de aceleración",
+    "causa": "Aceleración solicitada fuera de límites.",
+    "solucion": "Reducir aceleración."
+  },
+  {
+    "codigo": "SYST-098",
+    "descripcion": "SISTEMA error de desaceleración",
+    "causa": "Desaceleración solicitada fuera de límites.",
+    "solucion": "Ajustar parámetros de desaceleración."
+  },
+  {
+    "codigo": "SYST-099",
+    "descripcion": "SISTEMA error de parada",
+    "causa": "Error detectado durante una parada del sistema.",
+    "solucion": "Revisar secuencia de parada y reiniciar."
+  },
+  {
+    "codigo": "SYST-100",
+    "descripcion": "SISTEMA fallo crítico del sistema",
+    "causa": "Se produjo un fallo crítico no recuperable.",
+    "solucion": "Apagar el controlador y contactar con FANUC."
+  }
+    ,
+  {
+    "codigo": "SYST-101",
+    "descripcion": "SISTEMA error de inicialización de opción de movimiento",
+    "causa": "Una opción relacionada con el control de movimiento no se inicializó correctamente.",
+    "solucion": "Reiniciar el controlador y verificar opciones instaladas."
+  },
+  {
+    "codigo": "SYST-102",
+    "descripcion": "SISTEMA opción de movimiento incompatible",
+    "causa": "La opción de movimiento instalada no es compatible con la versión del sistema.",
+    "solucion": "Actualizar software o retirar la opción incompatible."
+  },
+  {
+    "codigo": "SYST-103",
+    "descripcion": "SISTEMA error de carga de parámetros",
+    "causa": "No se pudieron cargar correctamente los parámetros del sistema.",
+    "solucion": "Restaurar parámetros desde una copia de seguridad."
+  },
+  {
+    "codigo": "SYST-104",
+    "descripcion": "SISTEMA parámetros inválidos",
+    "causa": "Se detectaron valores de parámetros fuera de rango.",
+    "solucion": "Revisar y corregir los parámetros del sistema."
+  },
+  {
+    "codigo": "SYST-105",
+    "descripcion": "SISTEMA error de base de datos interna",
+    "causa": "Fallo en la base de datos interna del sistema.",
+    "solucion": "Reiniciar el controlador. Restaurar backup si es necesario."
+  },
+  {
+    "codigo": "SYST-106",
+    "descripcion": "SISTEMA error de actualización de datos",
+    "causa": "No se pudieron actualizar correctamente los datos internos.",
+    "solucion": "Reiniciar el sistema y repetir la operación."
+  },
+  {
+    "codigo": "SYST-107",
+    "descripcion": "SISTEMA error de coherencia de datos",
+    "causa": "Inconsistencia detectada entre datos del sistema.",
+    "solucion": "Restaurar copia de seguridad válida."
+  },
+  {
+    "codigo": "SYST-108",
+    "descripcion": "SISTEMA error de verificación de datos",
+    "causa": "La verificación interna de datos falló.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-109",
+    "descripcion": "SISTEMA error de inicialización de interfaz",
+    "causa": "Una interfaz de usuario o comunicación no se inicializó.",
+    "solucion": "Reiniciar y revisar hardware asociado."
+  },
+  {
+    "codigo": "SYST-110",
+    "descripcion": "SISTEMA error de comunicación con HMI",
+    "causa": "Fallo de comunicación con el panel del operador.",
+    "solucion": "Revisar cableado y reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-111",
+    "descripcion": "SISTEMA HMI no responde",
+    "causa": "El panel del operador no respondió a las solicitudes.",
+    "solucion": "Reiniciar HMI y controlador."
+  },
+  {
+    "codigo": "SYST-112",
+    "descripcion": "SISTEMA error de inicialización de periférico",
+    "causa": "Un periférico no se inicializó correctamente.",
+    "solucion": "Revisar conexión del periférico y reiniciar."
+  },
+  {
+    "codigo": "SYST-113",
+    "descripcion": "SISTEMA periférico no reconocido",
+    "causa": "El sistema no reconoce un periférico conectado.",
+    "solucion": "Verificar compatibilidad y conexiones."
+  },
+  {
+    "codigo": "SYST-114",
+    "descripcion": "SISTEMA error de sincronización de periférico",
+    "causa": "Desfase entre el sistema y un periférico.",
+    "solucion": "Revisar configuración de sincronización."
+  },
+  {
+    "codigo": "SYST-115",
+    "descripcion": "SISTEMA error de comunicación de periférico",
+    "causa": "Fallo de comunicación con un periférico externo.",
+    "solucion": "Revisar cableado, red y parámetros."
+  },
+  {
+    "codigo": "SYST-116",
+    "descripcion": "SISTEMA error de control de proceso",
+    "causa": "Error interno en el control del proceso.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-117",
+    "descripcion": "SISTEMA proceso detenido anormalmente",
+    "causa": "Un proceso del sistema se detuvo sin finalizar correctamente.",
+    "solucion": "Reiniciar el sistema y revisar registros."
+  },
+  {
+    "codigo": "SYST-118",
+    "descripcion": "SISTEMA error de recuperación de proceso",
+    "causa": "No se pudo recuperar correctamente un proceso.",
+    "solucion": "Reiniciar el controlador."
+  },
+  {
+    "codigo": "SYST-119",
+    "descripcion": "SISTEMA error de supervisión",
+    "causa": "La supervisión interna detectó una condición anormal.",
+    "solucion": "Reiniciar y revisar configuración."
+  },
+  {
+    "codigo": "SYST-120",
+    "descripcion": "SISTEMA fallo crítico de supervisión",
+    "causa": "Fallo grave detectado por el sistema de supervisión.",
+    "solucion": "Apagar el controlador y contactar con FANUC."
+  }
+    ,
+  {
+    "codigo": "SRVO-281",
+    "descripcion": "SERVO entrada del sistema SVOFF (SVEMG anormal)",
+    "causa": "Cuando la señal SVOFF está activada, se detecta una condición SVEMG anormal en el circuito de parada de emergencia.",
+    "solucion": "Revisar el circuito de parada de emergencia, cableado TBOP4 y eliminar la causa de SRDY OFF."
+  },
+  {
+    "codigo": "SRVO-282",
+    "descripcion": "SERVO Cadena 1 (SVOFF) anormal",
+    "causa": "Aunque el interruptor SVOFF está encendido, la cadena de seguridad 1 no se apaga correctamente.",
+    "solucion": "Revisar cableado del panel, placa del panel y sustituir componentes si es necesario."
+  },
+  {
+    "codigo": "SRVO-283",
+    "descripcion": "SERVO Cadena 2 (SVOFF) anormal",
+    "causa": "Aunque el interruptor SVOFF está encendido, la cadena de seguridad 2 no se apaga correctamente.",
+    "solucion": "Revisar cableado del panel, placa del panel y sustituir componentes si es necesario."
+  },
+  {
+    "codigo": "SRVO-290",
+    "descripcion": "SERVO freno de mano activado",
+    "causa": "El freno de mano está activado mientras se intenta mover el robot.",
+    "solucion": "Liberar el freno de mano y reiniciar el sistema."
+  },
+  {
+    "codigo": "SRVO-291",
+    "descripcion": "SERVO freno de mano no liberado",
+    "causa": "El freno de mano no se libera correctamente.",
+    "solucion": "Revisar mecanismo del freno y cableado."
+  },
+  {
+    "codigo": "SRVO-292",
+    "descripcion": "SERVO freno de mano anormal",
+    "causa": "Se detecta una condición anormal en el circuito del freno de mano.",
+    "solucion": "Revisar freno, cableado y amplificador."
+  },
+  {
+    "codigo": "SRVO-293",
+    "descripcion": "SERVO freno de mano activado durante movimiento",
+    "causa": "El freno de mano se activó mientras el robot estaba en movimiento.",
+    "solucion": "Eliminar la causa del accionamiento del freno y pulsar RESET."
+  },
+  {
+    "codigo": "SRVO-294",
+    "descripcion": "SERVO freno de mano activado inesperadamente",
+    "causa": "Activación inesperada del freno de mano.",
+    "solucion": "Revisar señales externas y sistema de freno."
+  },
+  {
+    "codigo": "SRVO-295",
+    "descripcion": "SERVO freno de mano error de control",
+    "causa": "Error de control detectado en el freno de mano.",
+    "solucion": "Revisar parámetros y hardware del freno."
+  },
+  {
+    "codigo": "SRVO-296",
+    "descripcion": "SERVO freno de mano error interno",
+    "causa": "Fallo interno relacionado con el control del freno.",
+    "solucion": "Reiniciar el controlador y contactar con FANUC si persiste."
+  },
+  {
+    "codigo": "SRVO-297",
+    "descripcion": "SERVO freno de mano estado inválido",
+    "causa": "El estado del freno de mano no es coherente.",
+    "solucion": "Revisar sensores y señales del freno."
+  },
+  {
+    "codigo": "SRVO-298",
+    "descripcion": "SERVO freno de mano no inicializado",
+    "causa": "El sistema de freno de mano no fue inicializado.",
+    "solucion": "Inicializar el sistema y reiniciar."
+  },
+  {
+    "codigo": "SRVO-300",
+    "descripcion": "SERVO conjunto fractura en la mano para ACTIVAR",
+    "causa": "Error detectado en el conjunto de la mano al activar.",
+    "solucion": "Revisar el conjunto de la mano y consultar el manual de mantenimiento."
+  },
+  {
+    "codigo": "SRVO-302",
+    "descripcion": "SERVO conjunto fractura en la mano para ACTIVAR",
+    "causa": "Error mecánico en el conjunto de la mano.",
+    "solucion": "Revisar mecánica y sustituir componentes dañados."
+  },
+  {
+    "codigo": "SRVO-303",
+    "descripcion": "SERVO conjunto HBK para ACTIVAR",
+    "causa": "Error detectado al activar el conjunto HBK.",
+    "solucion": "Revisar freno HBK y consultar manual de mantenimiento."
+  },
+  {
+    "codigo": "SRVO-310",
+    "descripcion": "SERVO movimiento inesperado ABC",
+    "causa": "Movimiento inesperado detectado durante el control.",
+    "solucion": "Verificar puntos de programa y condiciones de inicio."
+  },
+  {
+    "codigo": "SRVO-315",
+    "descripcion": "MPDT no PAUSA",
+    "causa": "La fase de detección MPDT no se completó correctamente.",
+    "solucion": "Contactar con el soporte técnico de FANUC."
+  },
+  {
+    "codigo": "SRVO-316",
+    "descripcion": "PAUSA tiempo MPDT agotado",
+    "causa": "El tiempo permitido para MPDT se agotó.",
+    "solucion": "Revisar condiciones MPDT o contactar con FANUC."
+  },
+  {
+    "codigo": "SRVO-317",
+    "descripcion": "PAUSA MPDT no puede iniciar (bloqueo de máquina)",
+    "causa": "El bloqueo de la máquina impide el inicio de MPDT.",
+    "solucion": "Desactivar el bloqueo de máquina para ese grupo."
+  },
+  {
+    "codigo": "SRVO-318",
+    "descripcion": "PAUSA MPDT no puede iniciar (SRDY OFF)",
+    "causa": "SRDY está apagado al intentar iniciar MPDT.",
+    "solucion": "Eliminar la causa de SRDY OFF."
+  },
+  {
+    "codigo": "SRVO-333",
+    "descripcion": "Apagado del sistema para restablecer",
+    "causa": "Es necesario apagar y encender el controlador para aplicar cambios.",
+    "solucion": "Apagar el controlador y volver a encenderlo."
+  }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
